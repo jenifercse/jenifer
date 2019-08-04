@@ -1,0 +1,63 @@
+#include<stdio.h>
+#include<conio.h>
+
+int gradingstudent(x[i])              //function to round of the next mutiples of 5
+{
+ for(i=0;i<=n;i++)
+{
+ y[i]=x[i]+(5-(x[i]%5))%5;
+}
+ return y[i];
+}
+
+int getgrade()                                //function to  get the grade
+{
+  printf("enter the grade of the students");
+  for(i=o;i<=n;i++)
+{
+  scanf("%d",&x[n]);
+{
+for(i=0;i<=n;i++)
+if(x[i]>9&&x[i]<100)                   /*refer to the sample output single digit is filtered*/
+{							
+switch(x[i])
+{
+case(x[i]<38):		//<38 no rounding will be done 
+printf("%d",x[i]);
+break;
+case(x[i]>=38)		//if the grade is greater than 38
+gradingstudent(x[i]);
+z=y[i]-x[i];
+if(z<3)			/*if the difference between the 
+{			next multiples of 5 and the grade is <3 then will be rounded off*/
+gradingstudent(x[i]);
+}
+if else
+{
+printf("%d",x[i]);
+}
+}
+}
+		
+int main()
+{
+int n;
+printf("enter the number of student ");
+scanf("%d",&n);
+Switch(n)
+{
+case (n<0):
+printf("enter positive numbers");
+break;
+case (n<60):
+printf("the number of students should not exceed 60");
+break;
+default:
+getgrade();
+break;
+}
+}
+
+
+
+

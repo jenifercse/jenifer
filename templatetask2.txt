@@ -1,0 +1,164 @@
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>template2</title>
+	<link href="style.css"rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+		
+</head>
+<body>
+	<div class="container-fluid">
+		<div>
+			<nav class="navbar ">
+  				<div class="container-fluid">
+    					<div class="navbar-header">
+    						 <img src="img/logo.png">
+   					 </div>
+  					  <ul class="nav navbar-nav navbar-right">
+     						 <li class="active"><a href="#">Home</a></li>
+    					 	 <li><a href="#">FEATURES</a></li>
+      						 <li><a href="#">ABOUT</a></li>
+     						 <li><a href="#">SERVICES</a></li>
+						 <li><a href="#">PORTFOLIO</a></li>
+ 						 <li><a href="#">PAGES</a></li>
+						 <li><a href="#">BLOG</a></li>
+						 <li><a href="#">CONTACT</a></li>
+  					  </ul>
+  				</div>
+			</nav>
+		</div>
+				
+		<div>
+			<div class="group">
+				<img src="img/GP.jpg" width="100%" >
+			</div>
+			<p class="abs" >THE POWER  OF BOOTSTRAP DISCOVER IT WITH QUART </p>
+		</div>
+		<p style="text-align:center"> <h2>OUR SERVICES</h2> </p>
+		<div class="row">
+			<div class="col-md-4" >
+				
+				<h3 class="text-center">clean and crispy design</h3>
+				<p>quart is crafted by top industries leaders with love ,care and customer needs in mind</p>	
+			</div>
+			<div class="col-md-4">
+				
+				<h3>pixel perfect typography</h3>
+				<p>it is impossible to ignore the fact that perfect typography is a key asset of design success</p>	
+			</div>
+			<div class="col-md-4">
+				
+				<h3>advance UI toolkit</h3>
+				<p>quart comes with powerful and flexible extended toolkit in addition to basic bootstrap</p>	
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-6">
+				<img src="room.jpg"width="100%">
+			</div>
+			<div class="col-md-6"><!--about us row starts here-->
+				<h3>about us</h3>
+					<p>we are team of professional energetic individual with talented designers
+						and experienced professionals available to gude our clients through the flawless and
+						timely execution of any residential design project.
+					</p>
+
+			
+				<div class="col-md-6">
+					<h3>bootstrap framework</h3></br><p>quart is based on bootstrap
+					framework which is places it is a nice templatefor any purpose</p>
+				</div>
+			<div class="col-md-6">
+				<h3>clean and crispy design</h3>
+				<p>quart is crafted by top industries leaders with 
+				love ,care and customer need in mind</p>
+				</div>
+			</div>
+		</div>      <!--about us row container ends here-->
+		
+		<!--impressive features row container starts here-->
+			<div class="row">
+				<div class="col-md-6"width="100%">
+					<h3>impressive features</h3></br></br>
+					<img src="icon6.png">
+					<h3>built for speed</h3>
+						<p>built for speed and performance.
+							get the best resultsat gt metrices at google page speed.</p></br>
+					<img src="icon7.png">
+					<h3>flexible and multipurpose</h3>
+						<p>Quart allows to create various websites for 
+							complex and schedule projects</p></br>
+					<img src="icon8.png">
+					<h3>social integration</h3>
+						<p>you can easily integrate your twitter and facebook account
+							with the website using social websites.</p>
+				</div>
+				<div class="col-md-6">
+					<img src="home.png" width="100%" height="50%">
+				</div>
+			</div>  
+		<!--impressive features ends here-->
+			
+				<div class="row"><img src="black.png" width="100%">
+				</div>
+			
+			<!--meet our team -->
+			<div class="row"><h4>meet our team</h4>
+				<div class="col-md-4"width="100%">
+					<img src="calvin.jpg" width="100%"></br>
+					<h2>brian king </br>director</h2>
+				</div>
+				<div class="col-md-4"width="100%">
+					<img src="maxwell.jpg" width="100%"></br>
+					<h2>amanda smith </br>marketing manager</h2>
+				</div>
+				<div class="col-md-4"width="100%">
+					<img src="josh.jpg" width="100%"></br>
+					<h2>george nelson</br>designer</h2>
+				</div>
+			</div>
+			<!--meet our team ends here-->
+			
+			<!--recent news starts here-->
+		
+			<div class="row"><h4>meet our team</h4>
+				<div class="col-md-4"width="100%">
+					<img src="computer.jpg" width="100%"></br>
+					<h2><strong>how to use bootstrap</strong></h2></br><p>bootstrap is the most popular
+						HTML,CSS and JS framework for developing most responsive website</p>
+				</div>
+				<div class="col-md-4"width="100%">
+					<img src="hands.jpg" width="100%"></br>
+					<h2><strong>clean style:cons and pros</strong></h2></br>
+						<p>every websites requires clean design.It is the basis of interfaces
+						that are easy to interact with.Lets discuss the pros and cons.</p>
+				</div>
+				<div class="col-md-4"width="100%">
+					<img src="teach.jpg" width="100%"></br>
+					<h2><strong>10 reasons to buy quart</strong></h2></br>
+					<p>In this article we would like to share with you why quart is a perfect template 
+					developing websites.</p>
+				</div>
+			</div>
+			
+			<!--recent news ends here-->
+			
+			<!-- our clients container starts here -->
+			<div class="row"><h2><strong>our clients</strong></h2>
+				<div class="col-md-3"><img src="logo1.png" width="100%"></br><img src="logo2.png" width="100%">
+				</div>
+				<div class="col-md-3"><img src="logo3.png" width="100%"></br><img src="logo4.png" width="100%">
+				</div>
+				<div class="col-md-3"><img src="logo5.png" width="100%"></br><img src="logo6.png" width="100%">
+				</div>
+				<div class="col-md-3"><img src="logo7.png" width="100%"></br>
+				</div>
+			</div> <!-- our clients container ends here-->
+			
+		</div><!--final container tag-->
+</body>	
+</html>

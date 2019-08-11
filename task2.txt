@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+	<head>
+		<title>simple web page creation</title>
+		<link href="style.css"rel="stylesheet"type="text/css">
+</head>
+	<body>
+	<div>
+			</div>
+			<div id="mynavbar " class="collapse navbar-collapse">
+				<ul class=" nav navbar-nav">
+					<li><a class="navbar navbar-btn glyphicon glyphicon-home  "  href="homepage.html" >Home</a>
+					<li> <a class="navbar navbar-btn glyphicon glyphicon-sort-by-alphabet" href="product.html"> Product</a>
+					<li> <a class="navbar navbar-btn glyphicon glyphicon-shopping-cart" href="cart.html"> Cart</a>
+					<li><a class="navbar navbar-btn glyphicon glyphicon-list-alt"  href="aboutus.html" >Contect Us</a>
+				</ul>
+
